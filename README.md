@@ -7,17 +7,17 @@ These instructions will get you a copy of the project up and running on your loc
 Prerequisites
 You will need to have Node.js and npm (Node Package Manager) installed on your machine.
 
+
 Installation
 Clone the repository to your local machine
-Copy code
-git clone https://github.com/AmanPandey/portfolio.git
+"git clone https://github.com/AmanPandey/portfolio.git"
 Install the dependencies
 Copy code
-npm install
+"npm install"
 Running the website
 Start the development server
 Copy code
-npm start
+"npm start"
 Open your browser and navigate to http://localhost:3000 to view the website.
 Built With
 React - The web framework used
