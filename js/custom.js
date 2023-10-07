@@ -1,18 +1,22 @@
-// templatemo 467 easy profile
+// Templatemo 467 Easy Profile
 
-// PRELOADER
-
-$(window).load(function(){
-    $('.preloader').delay(1000).fadeOut("slow"); // set duration in brackets    
+// Preloader
+$(window).on('load', function () {
+    $('.preloader').delay(1000).fadeOut('slow'); // Set duration in brackets
 });
 
-// HOME BACKGROUND SLIDESHOW
-$(function(){
-    jQuery(document).ready(function() {
-		$('body').backstretch([
-	 		 "images/tm-bg-slide-1.jpg", 
-	 		 "images/tm-bg-slide-2.jpg",
-			 "images/tm-bg-slide-3.jpg"
-	 			], 	{duration: 3200, fade: 1300});
-		});
-})
+// Home Background Slideshow
+$(function () {
+    $(document).ready(function () {
+        const backgroundImages = [
+            "images/tm-bg-slide-1.jpg",
+            "images/tm-bg-slide-2.jpg",
+            "images/tm-bg-slide-3.jpg"
+        ];
+
+        $('body').backstretch(backgroundImages, {
+            duration: 3200,
+            fade: 1300
+        });
+    });
+});
